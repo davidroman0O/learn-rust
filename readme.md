@@ -9,3 +9,5 @@ Here some notes about each things I've learned about Rust.
 - conditions
 - pattern
 - pointers
+- collections
+- loops
