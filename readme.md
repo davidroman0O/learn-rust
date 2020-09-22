@@ -11,3 +11,9 @@ Here some notes about each things I've learned about Rust.
 - pointers
 - collections
 - loops
+- functions
+
+
+#   Good Blogs:
+
+- https://blog.yoshuawuyts.com/

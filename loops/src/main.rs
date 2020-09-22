@@ -38,6 +38,46 @@ fn main() {
     //
     //  For loop
     //
-    
+    let a = [42,2,3,4,5,6,7,8,9];
+    for element in a.iter() {
+        println!("{}", element);
+    }
+    // but if you need the index
+    for (index, element) in a.iter().enumerate() {
+        println!("{} - {}", index, element);
+    }
+    //  we can also use ranges
+    for element in 1..6 {
+        println!("range: {}", element);
+    }
+
+    //
+    //  Labels
+    //
+    //  Let's write a double loop
+    for one in 1..10 {
+        for two in 1..10 {
+            if two == 3 {
+                // We break the loop "two" 
+                break 
+            }
+            println!("{} {}", one, two);
+        }
+    }
+    //  We can assign labels to loops
+    'top: for one in 1..10 {
+        'bottom: for two in 1..10 {
+            if two == 3 {
+                // We break the main loop directly 
+                break 'top
+            }
+            if one == 9 {
+                // We break the main loop directly 
+                break 'bottom
+            }
+            println!("top {} bottom {}", one, two);
+        }
+    }
+
 
 }
