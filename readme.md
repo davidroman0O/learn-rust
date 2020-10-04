@@ -12,6 +12,7 @@ Here some notes about each things I've learned about Rust.
 - collections
 - loops
 - functions
+- modules
 
 
 #   Good Blogs:
