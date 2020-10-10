@@ -13,6 +13,11 @@ Here some notes about each things I've learned about Rust.
 - loops
 - functions
 - modules
+- structs
+- enums
+- errors
+- generics
+- traits
 
 
 #   Good Blogs:

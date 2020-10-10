@@ -1,5 +1,5 @@
 [package]
-name = "loops"
+name = "generics"
 version = "0.1.0"
 authors = ["davidroman"]
 edition = "2018"
