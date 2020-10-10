@@ -18,6 +18,7 @@ Here some notes about each things I've learned about Rust.
 - errors
 - generics
 - traits
+- lifetime
 
 
 #   Good Blogs:
