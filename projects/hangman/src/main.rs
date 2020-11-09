@@ -7,7 +7,7 @@ use std::vec::Vec;
 
 fn main() {
     let mut dictionary: Vec<String> = Vec::new();
-    match prepareDictionary() {
+    match prepare_dictionary() {
         Ok(l) => dictionary = l,
         Err(err) => panic!(err),
     }
@@ -21,7 +21,7 @@ fn main() {
 }
 
 /// I think I've never written so much code for something that basic xD
-fn prepareDictionary() -> Result<Vec<String>, String> {
+fn prepare_dictionary() -> Result<Vec<String>, String> {
     let somefile = File::open("dictionary.txt");
     match somefile {
         Ok(file) => {
