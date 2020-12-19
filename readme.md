@@ -35,6 +35,18 @@ Here some notes about each things I've learned about Rust.
 - https://github.com/mre/idiomatic-rust
 - https://github.com/rust-lang/rust-clippy
 
+#   Projects to do to learn
+
+-   Hangman cli
+-   termion game of life
+
+#   Cool libs
+
+https://github.com/curlpipe/ox
+https://github.com/redox-os/termion
+https://github.com/vislyhq/stretch
+https://github.com/paritytech/wasmi
+
 #   Having `rust-analyzer` working on VSCode on W10
 
 Based on [this post from github](https://github.com/rust-lang/vscode-rust/issues/237#issuecomment-478299249)
